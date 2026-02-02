@@ -67,7 +67,7 @@ def unwrap_output(
     n_output_frames_original = int(np.floor(audio_original_length * (ANNOTATIONS_FPS / AUDIO_SAMPLE_RATE)))
     unwrapped_output = output.reshape(output_shape[0] * output_shape[1], output_shape[2])
     return unwrapped_output[:n_output_frames_original, :]  # trim to original audio length
-
+ 
 def run_inference(
     audio_path: str,
     model_path: str,
