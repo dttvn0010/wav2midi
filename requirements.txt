@@ -1,4 +1,4 @@
 tensorflow==2.15.0
 scipy==1.15.3
 librosa==0.11.0
-pretty_midi==0.2.11
+pretty_midi==0.2.11 
